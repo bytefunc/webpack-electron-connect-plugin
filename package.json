@@ -1,0 +1,24 @@
+{
+    "name": "webpack-electron-connect-plugin",
+    "version": "1.0.0",
+    "description": "webpack plugin to electron-connect",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rimraf dist && babel src --out-dir dist",
+        "dev": "babel src --watch --out-dir dist"
+    },
+    "keywords": ["electron", "webpack", "plugin"],
+    "author": "bytefunc <bytefunc@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bytefunc/webpack-electron-connect-plugin.git"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "rimraf": "^2.6.2"
+    }
+}
