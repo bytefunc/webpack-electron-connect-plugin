@@ -1,7 +1,7 @@
 {
     "name": "webpack-electron-connect-plugin",
     "version": "1.0.1",
-    "description": "webpack plugin to electron-connect",
+    "description": "webpack plugin to reload and restart Electron",
     "main": "dist/index.js",
     "scripts": {
         "build": "rimraf dist && babel src --out-dir dist",
