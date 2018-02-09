@@ -1,6 +1,8 @@
 # webpack-electron-connect-plugin
 
-webpack plugin to electron-connect
+webpack plugin to reload and restart Electron
+
+requires electron-connect package
 
 ## Installation
 
@@ -14,7 +16,7 @@ yarn add --dev electron-connect webpack-electron-connect-plugin
 
 ## Usage
 
-RendererProcess
+Electron renderer process
 
 ```html
 <html>
@@ -32,8 +34,8 @@ webpack.config
 ```javascript
 const ElectronConnectPlugin = require("webpack-electron-connect-plugin");
 
-// webpack config
 {
+    // ...
     plugins: [
         new ElectronConnectPlugin({
             type: "reload", // "reload" or "restart"
@@ -54,12 +56,12 @@ webpack -w
 ### type
 
 ```javascript
-// Not kill Electron process. reload electron
+// Not kill Electron process. reload Electron
 {
     type: "reload",
 }
 
-// Kill Electron process. restart electron
+// Kill Electron process. restart Electron
 {
     type: "restart",
 }
