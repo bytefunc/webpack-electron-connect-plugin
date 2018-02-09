@@ -46,7 +46,7 @@ const ElectronConnectPlugin = require("webpack-electron-connect-plugin");
 use webpack watch option
 
 ```cli
-webpack - w
+webpack -w
 ```
 
 ## API
