@@ -35,5 +35,3 @@ export default class ElectronConnectPlugin {
         });
     }
 }
-
-export var __useDefault = true;

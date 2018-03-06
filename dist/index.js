@@ -50,3 +50,4 @@ var ElectronConnectPlugin = function () {
 }();
 
 exports.default = ElectronConnectPlugin;
+module.exports = exports["default"];

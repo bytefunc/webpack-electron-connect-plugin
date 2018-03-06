@@ -1,13 +1,10 @@
 {
     "presets": [
         [
-            "env",
-            {
-                "targets": {
-                    "electron": "1.0"
-                },
-                "useBuiltIns": "usage"
-            }
+            "env"
         ]
+    ],
+    "plugins": [
+      "add-module-exports"
     ]
 }
